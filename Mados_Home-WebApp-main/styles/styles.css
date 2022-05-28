@@ -1,0 +1,50 @@
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family:'poppins','sans-serif' !important;
+}
+
+p{
+   margin: 0;
+}
+
+.search {
+  top: 1rem;  
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+  border-width: 0.5px;
+}
+
+.search input {
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 30vw;
+  border-width: 0.5px;
+  border-radius: 2em;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+    height: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.2);
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: rgba(0,0,0,0.4);
+}
+
+bode::-webkit-scrollbar-thumb:active{
+  background: rgba(0,0,0,.9);
+}
